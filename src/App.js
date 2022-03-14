@@ -19,14 +19,17 @@ function App() {
   const toTPP = () => toTP.current.scrollIntoView();
   const toHomee = () => toHome.current.scrollIntoView();
   return (
-    <div className="app bg-[#103F47] w-full pb-5 ">
+    <div className="app bg-[#103F47] w-full  ">
       {/* <img src="./imgs/bg-banner-v12.png" className="bg" alt="" /> */}
       {/* Nav */}
       <Nav toHomee={toHomee} toTPP={toTPP} toFaqq={toFaqq} toRoadd={toRoadd} />
-      {/* Main */}
-      <Main toHome={toHome} />
-      {/* About */}
-      <About1 />
+      <div className="main_bg">
+        {/* Main */}
+        <Main toHome={toHome} />
+        {/* About */}
+        {/* </div> */}
+        <About1 />
+      </div>
       {/* <About /> */}
       <Roadmap toRoad={toRoad} />
 
@@ -35,16 +38,19 @@ function App() {
       {/* Roadmap */}
       {/* <Roadmap /> */}
       {/* Faq */}
-      <Faq toFaq={toFaq} />
-      <div className="w-[80%] text-white text-2xl font-bold tracking-widest mx-auto  text-center sm:text-left">
-        THE SINNER
-        <br />
-        <span className="font-normal tracking-wide">CLUB</span>
+      <div className="lounge">
+        <Faq toFaq={toFaq} />
+        <div className="w-[80%] text-white text-2xl font-bold tracking-widest mx-auto  text-center sm:text-left">
+          THE SINNER
+          <br />
+          <span className="font-normal tracking-wide">CLUB</span>
+        </div>
+        <div className="mt-20 line my-2 w-full h-[1px] bg-gray-300 rounded-lg"></div>
+        <div className="text:lg md:text-2xl  text-center text-white pb-4 font-light tracking-widest">
+          ©COPYRIGHT-2022 THE SINNER CLUB. ALL RIGHTS RESERVED.
+        </div>
       </div>
-      <div className="mt-20 line my-2 w-full h-[1px] bg-gray-300 rounded-lg"></div>
-      <div className="text:lg md:text-2xl  text-center text-white mb-4 font-light tracking-widest">
-        ©COPYRIGHT-2022 THE SINNER CLUB. ALL RIGHTS RESERVED.
-      </div>
+
       {/* <SimpleSlider /> */}
     </div>
   );

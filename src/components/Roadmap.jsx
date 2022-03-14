@@ -4,10 +4,10 @@ function Roadmap({ toRoad }) {
   return (
     <div
       ref={toRoad}
-      className="container  mx-auto w-full my-20 z-20 "
+      className="roadmap container  mx-auto w-full py-20 z-20 "
       styles={{ backgroundImage: `url(${"./imgs/man-v1.png"})` }}
     >
-      <div className=" h-[80px]"></div>
+      {/* <div className=" h-[80px]"></div> */}
 
       <div className="relative wrap overflow-hidden p-10 h-full">
         {/* <img src="./imgs/man-v1.png" className="bg" alt="" /> */}
@@ -26,12 +26,12 @@ function Roadmap({ toRoad }) {
         {/* <!-- right timeline --> */}
         <div className="mb-8 flex sm:justify-between items-center w-full right-timeline">
           <div className="order-1  sm:w-5/12"></div>
-          <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full ml-[-20px] mr-4 sm:mx-0">
+          <div className="z-20 flex items-center order-1 bg-gray-800  w-8 h-8 rounded-full ml-[-20px] mr-4 sm:mx-0">
             <h1 className="mx-auto font-semibold text-lg text-white ">1</h1>
           </div>
-          <div className="box1 order-1  rounded-lg shadow-xl w-[90%] sm:w-5/12 px-6 py-4">
+          <div className="box1 order-1  rounded-lg  w-[90%] sm:w-5/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-white text-xl">The Story</h3>
-            <p className="text-sm italic leading-snug tracking-wide text-white text-opacity-100">
+            <p className="text-sm md:text-lg italic leading-snug tracking-wide text-white text-opacity-100">
               The Sinners Club comes from an idea of a group of entrepreneurs
               and investors that loathe getting comfortable with repetitive
               activities and are in search of a thrilling life and profitable
@@ -45,15 +45,15 @@ function Roadmap({ toRoad }) {
         {/* <!-- left timeline --> */}
         <div className="mb-8 flex sm:justify-between sm:flex-row-reverse items-center w-full left-timeline ">
           <div className="order-1 sm:w-5/12"></div>
-          <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full ml-[-20px] mr-4 sm:mx-0">
+          <div className="z-20 flex items-center order-1 bg-gray-800  w-8 h-8 rounded-full ml-[-20px] mr-4 sm:mx-0">
             <h1 className="mx-auto text-white font-semibold text-lg">2</h1>
           </div>
-          <div className=" box1 order-1  rounded-lg shadow-xl w-[90%] sm:w-5/12 px-6 py-4">
+          <div className=" box1 order-1  rounded-lg  w-[90%] sm:w-5/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-white text-xl">
               {" "}
               Welcome to the Sinners Club:
             </h3>
-            <p className="text-sm italic font-medium leading-snug tracking-wide text-white text-opacity-100">
+            <p className="text-sm md:text-lg italic font-medium leading-snug tracking-wide text-white text-opacity-100">
               The Sinners Club is for the people that hate having an ordinary
               life and enjoy top-notch things of life, in other words: for the
               bold. Being part of this exclusive club gives you access to the
@@ -69,14 +69,14 @@ function Roadmap({ toRoad }) {
         </div>
         <div className="mb-8 flex sm:justify-between items-center w-full right-timeline">
           <div className="order-1  sm:w-5/12"></div>
-          <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full ml-[-20px] mr-4 sm:mx-0">
+          <div className="z-20 flex items-center order-1 bg-gray-800  w-8 h-8 rounded-full ml-[-20px] mr-4 sm:mx-0">
             <h1 className="mx-auto font-semibold text-lg text-white ">3</h1>
           </div>
-          <div className=" box1 order-1  rounded-lg shadow-xl w-[90%] sm:w-5/12 px-6 py-4">
+          <div className=" box1 order-1  rounded-lg  w-[90%] sm:w-5/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-white text-xl">
               Rewards and Passive Income:
             </h3>
-            <p className="text-sm italic leading-snug tracking-wide text-white text-opacity-100">
+            <p className="text-sm md:text-lg italic leading-snug tracking-wide text-white text-opacity-100">
               Within our 5000 NFT Collection there will be 777 special and rare
               NFTs called THE DEADLY SINNERS. These exclusive NFTs will have
               special benefits, but the greatest benefit will be that the 50% of
@@ -100,14 +100,14 @@ function Roadmap({ toRoad }) {
         {/* <!-- left timeline --> */}
         <div className="mb-8 flex sm:justify-between sm:flex-row-reverse items-center w-full left-timeline ">
           <div className="order-1 sm:w-5/12"></div>
-          <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full ml-[-20px] mr-4 sm:mx-0">
+          <div className="z-20 flex items-center order-1 bg-gray-800  w-8 h-8 rounded-full ml-[-20px] mr-4 sm:mx-0">
             <h1 className="mx-auto text-white font-semibold text-lg">4</h1>
           </div>
-          <div className="box1 order-1 rounded-lg shadow-xl w-[90%] sm:w-5/12 px-6 py-4">
+          <div className="box1 order-1 rounded-lg  w-[90%] sm:w-5/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-white text-xl">
               Nightlife development :{" "}
             </h3>
-            <p className="text-sm italic font-medium leading-snug tracking-wide text-white text-opacity-100">
+            <p className="text-sm md:text-lg italic font-medium leading-snug tracking-wide text-white text-opacity-100">
               The nightlife is the main core of this project, simply because
               this will be the place in which Sinners all over the world will
               meet to chat, drink, and play betting games, but mainly to build a
@@ -142,14 +142,14 @@ function Roadmap({ toRoad }) {
 
         <div className="mb-8 flex sm:justify-between items-center w-full right-timeline">
           <div className="order-1  sm:w-5/12"></div>
-          <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full ml-[-20px] mr-4 sm:mx-0">
+          <div className="z-20 flex items-center order-1 bg-gray-800  w-8 h-8 rounded-full ml-[-20px] mr-4 sm:mx-0">
             <h1 className="mx-auto font-semibold text-lg text-white ">5</h1>
           </div>
-          <div className="box1 order-1  rounded-lg shadow-xl w-[90%] sm:w-5/12 px-6 py-4">
+          <div className="box1 order-1  rounded-lg  w-[90%] sm:w-5/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-white text-xl">
               Charity/Donations:
             </h3>
-            <p className="text-sm italic leading-snug tracking-wide text-white text-opacity-100">
+            <p className="text-sm md:text-lg italic leading-snug tracking-wide text-white text-opacity-100">
               We will give a percentage of profits to holders with student debt
               and to those entrepreneurs who need that little boost in order to
               make things happen. In this way we will contribute to empower the
@@ -161,14 +161,14 @@ function Roadmap({ toRoad }) {
         {/* <!-- left timeline --> */}
         <div className="mb-8 flex sm:justify-between sm:flex-row-reverse items-center w-full left-timeline ">
           <div className="order-1 sm:w-5/12"></div>
-          <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full ml-[-20px] mr-4 sm:mx-0">
+          <div className="z-20 flex items-center order-1 bg-gray-800  w-8 h-8 rounded-full ml-[-20px] mr-4 sm:mx-0">
             <h1 className="mx-auto text-white font-semibold text-lg">6</h1>
           </div>
-          <div className="box1 order-1  rounded-lg shadow-xl w-[90%] sm:w-5/12 px-6 py-4">
+          <div className="box1 order-1  rounded-lg  w-[90%] sm:w-5/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-white text-xl">
               Sold out spending:
             </h3>
-            <p className="text-sm italic font-medium leading-snug tracking-wide text-white text-opacity-100">
+            <p className="text-sm md:text-lg italic font-medium leading-snug tracking-wide text-white text-opacity-100">
               -Buy land in the Sandbox/Decentraland for $100,000 and develop the
               core of the project <br /> -Most importantly, we will use the
               funds to help our holders in their entrepreneurial and education
@@ -182,14 +182,14 @@ function Roadmap({ toRoad }) {
 
         {/* <div className="mb-8 flex justify-between items-center w-full right-timeline">
           <div className="order-1 w-5/12"></div>
-          <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+          <div className="z-20 flex items-center order-1 bg-gray-800  w-8 h-8 rounded-full">
             <h1 className="mx-auto font-semibold text-lg text-white">3</h1>
           </div>
-          <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+          <div className="order-1 bg-gray-400 rounded-lg  w-5/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-gray-800 text-xl">
               Lorem Ipsum
             </h3>
-            <p className="text-sm italic leading-snug tracking-wide text-gray-900 text-opacity-100">
+            <p className="text-sm md:text-lg italic leading-snug tracking-wide text-gray-900 text-opacity-100">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -201,12 +201,12 @@ function Roadmap({ toRoad }) {
         {/* <!-- left timeline --> */}
         {/* <div className="mb-8 flex justify-between sm:flex-row-reverse items-center w-full left-timeline">
           <div className="order-1 w-5/12"></div>
-          <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+          <div className="z-20 flex items-center order-1 bg-gray-800  w-8 h-8 rounded-full">
             <h1 className="mx-auto text-white font-semibold text-lg">4</h1>
           </div>
-          <div className="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+          <div className="order-1 bg-red-400 rounded-lg  w-5/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-white text-xl">Lorem Ipsum</h3>
-            <p className="text-sm italic font-medium leading-snug tracking-wide text-white text-opacity-100">
+            <p className="text-sm md:text-lg italic font-medium leading-snug tracking-wide text-white text-opacity-100">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of

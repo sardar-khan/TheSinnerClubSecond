@@ -8,7 +8,7 @@ html {
 }
 .box1 {
   /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.6);
   /* background: rgba(255, 255, 255, 0.55); */
 
   border-radius: 16px;
@@ -16,6 +16,28 @@ html {
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
   border: 1px solid rgba(255, 255, 255, 0.6);
+}
+.box2 {
+  /* From https://css.glass */
+  background: rgba(255, 255, 0, 0.03);
+  /* background: rgba(255, 255, 255, 0.55); */
+
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  /* border: 1px solid rgba(255, 255, 255, 0.6); */
+}
+.box3 {
+  /* From https://css.glass */
+  background: rgba(63, 22, 8, 0.6);
+  /* background: rgba(255, 255, 255, 0.55); */
+
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  /* border: 1px solid rgba(255, 255, 255, 0.6); */
 }
 .app {
   /* height: 100%; */
@@ -43,5 +65,29 @@ body {
   background-image: url(./assets/bg-banner-v12.jpg) !important;
 }
 .roadmap {
-  background-image: url(./assets/bg-banner-v12.jpg) !important;
+  background-image: url(./assets/poker.jpg) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position: center;
+}
+.main_bg {
+  background-image: url(./assets/bg.jpeg) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  /* background-position: center; */
+  width: 100%;
+}
+.lounge {
+  background-image: url(./assets/lounge.webp) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position: center;
+  /* width: 100%; */
+}
+.horse_track {
+  background-image: url(./assets/horse_track.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position-y: bottom;
+  /* width: 100%; */
 }

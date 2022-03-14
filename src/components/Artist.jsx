@@ -4,7 +4,7 @@ import SimpleSlider from "./SimpleSlideer";
 
 function Artist({ toTP }) {
   return (
-    <div ref={toTP} className="artist  w-full shadow">
+    <div ref={toTP} className="horse_track artist  w-full shadow">
       <div className=" h-[100px]"></div>
       <div className=" text-white  max-w-[90%] mx-auto md:h-screen text-center">
         <div className="text-4xl md:text-6xl font-bold tracking-widest">
