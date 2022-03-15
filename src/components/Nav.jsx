@@ -30,7 +30,7 @@ function Nav({ toHomee, toTPP, toRoadd, toFaqq }) {
           <span className="font-normal tracking-wide mx-auto">Club</span> */}
           <img
             src="./imgs/logo1.png"
-            className="h-[60px] pt-2 w-[80%] sm:w-[70%] md:w-[70%] mx-auto"
+            className="h-[50px] pt-2 w-[80%] sm:w-[70%] md:w-[80%] mx-auto"
             alt=""
           />
         </div>

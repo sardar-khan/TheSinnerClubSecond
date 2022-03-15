@@ -37,7 +37,8 @@ function Roadmap({ toRoad }) {
               activities and are in search of a thrilling life and profitable
               activities. This club is not just for people who know how to live
               their life but the ambitious ones who know how to invest their
-              free time
+              free time. The Sinners Club is a DAO NFT collection dedicated to
+              utility NFT enthusiasts and a leader & community-driven project.
             </p>
           </div>
         </div>
@@ -51,19 +52,15 @@ function Roadmap({ toRoad }) {
           <div className=" box1 order-1  rounded-lg  w-[90%] sm:w-5/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-white text-xl">
               {" "}
-              Welcome to the Sinners Club:
+              Welcome to The Sinners Club:
             </h3>
             <p className="text-sm md:text-lg italic font-medium leading-snug tracking-wide text-white text-opacity-100">
-              The Sinners Club is for the people that hate having an ordinary
-              life and enjoy top-notch things of life, in other words: for the
-              bold. Being part of this exclusive club gives you access to the
-              best features, such as real estate off-market deals, private
-              investments and one of the first nightlife locations in the
-              Metaverse which will include profit-sharing benefits.The community
-              is the core of our project, so we want to build a solid community
-              that believes and trusts our mission in the long-term. If you're
-              here for the short-term, this is probably not the most suitable
-              project for you
+              The Sinners Club will be for the people who want to get out of
+              their comfort zone, those who are willing to take a risk, in the
+              end, if you are not living on the edge you are taking up too much
+              space, there are tons of great things out and we believe that
+              sometimes you need a push to take that step you're looking for, we
+              want to be that push for our community.
             </p>
           </div>
         </div>
@@ -84,15 +81,7 @@ function Roadmap({ toRoad }) {
               consumables profits and more) will be split between the holders of
               the 777 Deadly Sinners as PASSIVE INCOME. If you didn’t get one of
               the Deadly Sinners, the rest of the collection will benefit from
-              the 20% of the profits. <br /> <br />
-              Example: If our club makes $500,000 in profit each month: <br />
-              <span className="pl-2">
-                - $250,000 will go to the 777 deadly sinners, or $321 per NFT{" "}
-              </span>{" "}
-              <br />
-              <span className="pl-2">
-                - $100,000 will go to the standard sinners, or $23 per NFT{" "}
-              </span>
+              the 20% of the profits.
             </p>
           </div>
         </div>
@@ -105,7 +94,7 @@ function Roadmap({ toRoad }) {
           </div>
           <div className="box1 order-1 rounded-lg  w-[90%] sm:w-5/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-white text-xl">
-              Nightlife development :{" "}
+              Nightlife development :
             </h3>
             <p className="text-sm md:text-lg italic font-medium leading-snug tracking-wide text-white text-opacity-100">
               The nightlife is the main core of this project, simply because
@@ -117,7 +106,7 @@ function Roadmap({ toRoad }) {
               different activities, including: <br />
               - Gambling hall (poker,blackjack,roulette, etc.)
               <br />
-              - Horse Racing Track
+              - Sports and horse races betting lounge
               <br />
               - Wheel of Fortune
               <br />
@@ -150,10 +139,16 @@ function Roadmap({ toRoad }) {
               Charity/Donations:
             </h3>
             <p className="text-sm md:text-lg italic leading-snug tracking-wide text-white text-opacity-100">
+              The Sinners Club will contribute to building the leaders of
+              tomorrow. As people who have been in that situation and have
+              experienced the challenges that can be faced, we want to help and
+              give back to the community. That is why we have decided to support
+              these two neglected sectors so that students can focus on getting
+              ahead without economic concerns and so that entrepreneurs have the
+              momentum to start. <br /> <br />
               We will give a percentage of profits to holders with student debt
               and to those entrepreneurs who need that little boost in order to
-              make things happen. In this way we will contribute to empower the
-              leaders of tomorrow.
+              make things happen.
             </p>
           </div>
         </div>
@@ -169,11 +164,22 @@ function Roadmap({ toRoad }) {
               Sold out spending:
             </h3>
             <p className="text-sm md:text-lg italic font-medium leading-snug tracking-wide text-white text-opacity-100">
-              -Buy land in the Sandbox/Decentraland for $100,000 and develop the
-              core of the project <br /> -Most importantly, we will use the
-              funds to help our holders in their entrepreneurial and education
-              needs and reward the trust you have put into us and the project
-              itself.
+              When we sell out our plan is to: <br /> <br />
+              -Buy land in the Sandbox/Decentraland and develop the core of the
+              project for approx. $100,000
+              <br />
+              -Giveaway $200,000 in ETH
+              <br />
+              -We will host events for holders in Puerto Rico, Miami and Los
+              Angeles
+              <br />
+              -Giveaway of $200,000 USD in prizes between holders with 5+ NFTs
+              of our collection
+              <br />
+              -Keep hosting poker/blackjack tournaments with BIG Cash prizes
+              <br />
+              -Most importantly, we will use the funds to help our holders in
+              their entrepreneurial and education needs
             </p>
           </div>
         </div>

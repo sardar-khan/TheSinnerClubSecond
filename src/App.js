@@ -28,6 +28,7 @@ function App() {
         <Main toHome={toHome} />
         {/* About */}
         {/* </div> */}
+        <div className="h-[100px]"></div>
         <About1 />
       </div>
       {/* <About /> */}

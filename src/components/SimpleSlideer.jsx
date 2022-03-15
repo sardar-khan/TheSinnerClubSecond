@@ -46,7 +46,7 @@ export default class SimpleSlider extends Component {
           <div className="box2 p-2 ml-2  ">
             <img
               className=" h-[95%] w-full rounded-lg shadow-lg shadow-gray-500 "
-              src="./imgs/avatar_kurtis.png"
+              src="./imgs/avatar_ryan.png"
               alt=""
             />
             <div className="">
@@ -63,7 +63,7 @@ export default class SimpleSlider extends Component {
           <div className=" p-2  box2 ">
             <img
               className=" h-[95%] w-full rounded-lg shadow-lg shadow-gray-500"
-              src="./imgs/avatar_travis.png"
+              src="./imgs/avatar_jeff.png"
               alt=""
             />
             <div className="mt-4 text-xl flex ml-6 items-center">
@@ -78,7 +78,7 @@ export default class SimpleSlider extends Component {
           <div className=" p-2   box2">
             <img
               className=" h-[95%] w-full rounded-lg shadow-lg shadow-gray-500"
-              src="./imgs/avatar_chris.png"
+              src="./imgs/avatar_patrick.png"
               alt=""
             />
             <div className="mt-4 text-lg flex ml-6 text-left items-center">
@@ -93,7 +93,7 @@ export default class SimpleSlider extends Component {
           <div className=" p-2   box2">
             <img
               className=" h-[95%] w-full rounded-lg shadow-lg shadow-gray-500"
-              src="./imgs/avatar_kurtis.png"
+              src="./imgs/avatar_joe.png"
               alt=""
             />
             <div className="mt-4 text-xl flex ml-6 items-center">
@@ -108,7 +108,7 @@ export default class SimpleSlider extends Component {
           <div className=" p-2   box2">
             <img
               className=" h-[95%] w-full rounded-lg shadow-lg shadow-gray-500"
-              src="./imgs/avatar_kurtis.png"
+              src="./imgs/avatar_rafa.png"
               alt=""
             />
             <div className="mt-4 text-xl flex ml-6 items-center">

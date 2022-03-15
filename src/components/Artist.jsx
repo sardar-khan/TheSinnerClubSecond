@@ -8,7 +8,7 @@ function Artist({ toTP }) {
       <div className=" h-[100px]"></div>
       <div className=" text-white  max-w-[90%] mx-auto md:h-screen text-center">
         <div className="text-4xl md:text-6xl font-bold tracking-widest">
-          Team presentation{" "}
+          Our Team
         </div>
         <br />
         <div>

@@ -84,8 +84,8 @@ function Faq({ toFaq }) {
             <Disclosure.Panel className="text-white text-lg font-[400] italic">
               We are a COMMUNITY centered project, rest assured to know we’re
               right there with you for the long haul. We are keen on building a
-              strong and united community, where you’ll be cmaking decisions as
-              a community. With that being said, our project will reward those
+              strong and united community, where you’ll be making decisions as a
+              community. With that being said, our project will reward those
               holders with student debt and also those entrepreneurs with
               grandiose ideas.
             </Disclosure.Panel>
