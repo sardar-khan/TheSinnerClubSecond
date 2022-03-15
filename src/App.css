@@ -61,8 +61,8 @@ body {
 }
 .app {
   /* width: 100%; */
-
-  background-image: url(./assets/bg-banner-v12.jpg) !important;
+  background: #121212;
+  /* background-image: url(./assets/bg-banner-v12.jpg) !important; */
 }
 .roadmap {
   background-image: url(./assets/poker.jpg) !important;
@@ -71,10 +71,11 @@ body {
   background-position: center;
 }
 .main_bg {
-  background-image: url(./assets/bg.jpeg) !important;
+  background-image: url(./assets/main_bg.gif) !important;
   background-repeat: no-repeat !important;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+
   width: 100%;
 }
 .lounge {

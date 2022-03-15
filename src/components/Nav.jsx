@@ -29,7 +29,7 @@ function Nav({ toHomee, toTPP, toRoadd, toFaqq }) {
           {/* THE SINNERS <br />
           <span className="font-normal tracking-wide mx-auto">Club</span> */}
           <img
-            src="./imgs/logo1.png"
+            src="./imgs/main_logo.png"
             className="h-[50px] pt-2 w-[80%] sm:w-[70%] md:w-[80%] mx-auto"
             alt=""
           />

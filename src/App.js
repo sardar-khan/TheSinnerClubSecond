@@ -23,7 +23,7 @@ function App() {
       {/* <img src="./imgs/bg-banner-v12.png" className="bg" alt="" /> */}
       {/* Nav */}
       <Nav toHomee={toHomee} toTPP={toTPP} toFaqq={toFaqq} toRoadd={toRoadd} />
-      <div className="main_bg">
+      <div className="">
         {/* Main */}
         <Main toHome={toHome} />
         {/* About */}
