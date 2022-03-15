@@ -4,7 +4,7 @@ function Roadmap({ toRoad }) {
   return (
     <div
       ref={toRoad}
-      className="roadmap container  mx-auto w-full py-20 z-20 "
+      className="roadmap container  mx-auto w-full py-20  "
       styles={{ backgroundImage: `url(${"./imgs/man-v1.png"})` }}
     >
       {/* <div className=" h-[80px]"></div> */}

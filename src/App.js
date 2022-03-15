@@ -40,14 +40,14 @@ function App() {
       {/* Faq */}
       <div className="lounge">
         <Faq toFaq={toFaq} />
-        <div className="w-[80%] text-white text-2xl font-bold tracking-widest mx-auto  text-center sm:text-left">
+        {/* <div className="w-[80%] text-white text-2xl font-bold tracking-widest mx-auto  text-center sm:text-left">
           THE SINNER
           <br />
           <span className="font-normal tracking-wide">CLUB</span>
-        </div>
-        <div className="mt-20 line my-2 w-full h-[1px] bg-gray-300 rounded-lg"></div>
+        </div> */}
+        <div className="mt-10 line my-2 w-full h-[1px] bg-gray-300 rounded-lg"></div>
         <div className="text:lg md:text-2xl  text-center text-white pb-4 font-light tracking-widest">
-          ©COPYRIGHT-2022 THE SINNER CLUB. ALL RIGHTS RESERVED.
+          ©COPYRIGHT-2022 THE SINNERS CLUB. ALL RIGHTS RESERVED.
         </div>
       </div>
 

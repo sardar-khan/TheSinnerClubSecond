@@ -4,7 +4,7 @@ function Main({ toHome }) {
   return (
     <div
       ref={toHome}
-      className=" main p-4 w-full mb-12 sm:mb-0 sm:h-screen pt-24 pb-12"
+      className=" main p-4 w-full mb-4 sm:mb-0 sm:h-screen pt-24"
     >
       <div className=" mx-auto w-[90%]   md:flex h-[100%] ">
         <div className="flex-[0.75] ">
