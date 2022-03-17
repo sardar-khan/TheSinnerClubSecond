@@ -51,16 +51,16 @@ function Nav({ toHomee, toTPP, toRoadd, toFaqq }) {
           ROADMAP
         </div>
         <div
+          onClick={toTPP}
+          className="active:text-xl active:text-rose-200 cursor-pointer hidden sm:inline-block hover:text-[#0291BE]  mr-6"
+        >
+          TEAM PRESENTATION
+        </div>
+        <div
           onClick={toFaqq}
           className="active:text-xl active:text-rose-200 cursor-pointer hidden sm:inline-block hover:text-[#0291BE]  mr-6"
         >
           FAQ
-        </div>
-        <div
-          onClick={toTPP}
-          className="active:text-xl active:text-rose-200 cursor-pointer hidden sm:inline-block hover:text-[#0291BE]  mr-6"
-        >
-          TEAM PRESENTAION
         </div>
       </div>
     </div>

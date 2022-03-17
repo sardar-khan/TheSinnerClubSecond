@@ -114,9 +114,19 @@ export default class SimpleSlider extends Component {
             <div className="mt-4 text-xl flex ml-6 items-center">
               Artist ┃ Rafa
             </div>
-            <div className="my-2 text-md text-left italic text-gray-100 w-[80%] mx-auto">
-              I’m a self-taught plastic artist and illustration is my main
-              field. I've worked as a character designer before in multiple
+            <div className="my-2 text-md text-left italic text-gray-100 w-[80%] mx-auto sm:text-sm  ">
+              I’ve been a 2D animator in various companies/projects, but where
+              I’ve learned and enjoyed it the most is animating characters for
+              Cartoon Network. I hope you connect with our design but most
+              importantly, connect with the whole community and become one of
+              us. Follow me on Instagram:{" "}
+              <a
+                className="text-[#0C98C5]"
+                href="https://www.instagram.com/rafa.modern.art/"
+                target="_blank"
+              >
+                @rafa.modern.art
+              </a>
             </div>
           </div>
         </Slider>
