@@ -49,7 +49,7 @@ export default class SimpleSlider extends Component {
               src="./imgs/avatar_ryan.png"
               alt=""
             />
-            <div className="box2  sm:h-[300px] md:h-[270px]">
+            <div className="box2">
               <div className="pt-4 text-xl flex ml-6 items-center">
                 Co-Founder ┃ Ryan
               </div>
@@ -66,7 +66,7 @@ export default class SimpleSlider extends Component {
               src="./imgs/avatar_jeff.png"
               alt=""
             />
-            <div className="box2  sm:h-[300px] md:h-[270px]">
+            <div className="box2">
               <div className="pt-4 text-xl flex ml-6 items-center">
                 Co-Founder ┃ Jeff
               </div>
@@ -83,7 +83,7 @@ export default class SimpleSlider extends Component {
               src="./imgs/avatar_patrick.png"
               alt=""
             />
-            <div className="box2  sm:h-[300px] md:h-[270px]">
+            <div className="box2">
               <div className="pt-4 text-lg flex ml-6 text-left items-center">
                 Software Developer ┃ Patrick
               </div>
@@ -100,7 +100,7 @@ export default class SimpleSlider extends Component {
               src="./imgs/avatar_joe.png"
               alt=""
             />
-            <div className="box2  sm:h-[300px] md:h-[270px]">
+            <div className="box2">
               <div className="pt-4 text-xl flex ml-6 items-center">
                 Marketing Expert ┃ Joe
               </div>
@@ -117,7 +117,7 @@ export default class SimpleSlider extends Component {
               src="./imgs/avatar_rafa.png"
               alt=""
             />
-            <div className="box2  sm:h-[300px] md:h-[270px]">
+            <div className="box2">
               <div className="pt-4 text-xl flex ml-6 items-center">
                 Artist ┃ Rafa
               </div>

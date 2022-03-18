@@ -6,8 +6,8 @@ function Artist({ toTP }) {
   return (
     <div ref={toTP} className="horse_track artist  w-full pb-12 ">
       <div className=" h-[100px]"></div>
-      <div className=" text-white  max-w-[90%] mx-auto md:h-screen text-center">
-        <div className="text-4xl md:text-6xl font-bold tracking-widest">
+      <div className="  text-white  max-w-[90%] mx-auto md:h-screen text-center">
+        <div className=" box1 w-[80%] sm:w-[50%] md:w-[30%] mx-auto py-2 text-4xl md:text-6xl font-bold tracking-widest">
           Our Team
         </div>
         <br />
