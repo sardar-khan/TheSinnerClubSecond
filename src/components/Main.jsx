@@ -1,4 +1,5 @@
 import React from "react";
+import { FaDiscord, FaInstagram, FaTwitter } from "react-icons/fa";
 
 function Main({ toHome }) {
   return (
@@ -8,6 +9,32 @@ function Main({ toHome }) {
         <div className=" mx-auto w-[90%] mt-20 sm:mt-0  sm:h-[80vh] ">
           <div className=" mt-4 md:mt-20 ">
             {/* <img className="w-[70%]" src="./imgs/text-v1.svg" alt="" /> */}
+            <div className="right sm:hidden w-[10%] justify-between min-w-[200px] mb-8 mx-auto mt-5 lg:mt-0 lg:mr-0 flex ">
+              <a href="https://discord.gg/PG6wPHuX7t" target={"_blank"}>
+                <div className="icon bg-white rounded-full w-12 h-12 flex justify-center pt-3 hover:bg-gray-300 ">
+                  {" "}
+                  <FaDiscord color="black" size={"70%"} />{" "}
+                </div>
+              </a>
+              <a
+                href="https://twitter.com/thesinners_nft?s=21"
+                target={"_blank"}
+              >
+                <div className="icon bg-white rounded-full w-12 h-12 flex justify-center pt-3 hover:bg-gray-300 ">
+                  {" "}
+                  <FaTwitter color="black" size={"70%"} />{" "}
+                </div>
+              </a>
+              <a
+                href="https://instagram.com/thesinnersnft?utm_medium=copy_link"
+                target={"_blank"}
+              >
+                <div className="icon bg-white rounded-full w-12 h-12 flex justify-center pt-3 hover:bg-gray-300 ">
+                  {" "}
+                  <FaInstagram color="black" size={"70%"} />
+                </div>
+              </a>
+            </div>
             <img
               className="sm:w-[50%] my-4 rounded-lg mx-auto box1 px-4 py-2 hidden "
               src="./imgs/main_logo.png"
