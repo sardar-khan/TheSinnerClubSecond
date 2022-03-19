@@ -31,10 +31,12 @@ html {
 }
 .box3 {
   /* From https://css.glass */
-  background: rgba(63, 22, 8, 0.6);
+  /* background: rgba(63, 22, 8, 0.6); */
+  background: rgba(0, 0, 0, 0.6);
+
   /* background: rgba(255, 255, 255, 0.55); */
 
-  border-radius: 16px;
+  border-radius: 8px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
@@ -81,7 +83,7 @@ body {
   width: 100%;
 }
 .lounge {
-  background-image: url(./assets/lounge.webp) !important;
+  background-image: url(./assets/lounge.png) !important;
   background-repeat: no-repeat !important;
   background-size: cover;
   background-position: center;

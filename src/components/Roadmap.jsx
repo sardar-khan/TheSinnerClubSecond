@@ -55,12 +55,11 @@ function Roadmap({ toRoad }) {
               Welcome to The Sinners Club:
             </h3>
             <p className="text-sm md:text-lg italic font-medium leading-snug tracking-wide text-white text-opacity-100">
-              The Sinners Club will be for the people who want to get out of
-              their comfort zone, those who are willing to take a risk, in the
-              end, if you are not living on the edge you are taking up too much
-              space, there are tons of great things out and we believe that
-              sometimes you need a push to take that step you're looking for, we
-              want to be that push for our community.
+              The Sinners Club is for the people who want to get out of their
+              comfort zone, those who are willing to take a risk, there are tons
+              of great things out and we believe that sometimes you need a boost
+              to take that step you're looking for, we want to be that
+              motivation for our community.
             </p>
           </div>
         </div>

@@ -53,7 +53,7 @@ function Faq({ toFaq }) {
             </Disclosure.Button>
             <Disclosure.Panel className="text-white text-lg font-[400] italic">
               The launch date is to be announced. The plan is to have them take
-              over the Metaverse by the end of XXXXX . Further updates will be
+              over the Metaverse by the end of April . Further updates will be
               revealed to the exclusive Discord community of early supporters
             </Disclosure.Panel>
           </Disclosure>{" "}

@@ -47,7 +47,7 @@ function App() {
           <br />
           <span className="font-normal tracking-wide">CLUB</span>
         </div> */}
-        <div className="box2 px-4 py-4 md:py-2 w-[80%] mx-auto footer mb-[83px] sm:mb-2 md:flex justify-between mt-28 md:mt-3 lg:mt-[-40px] items-center ">
+        <div className=" px-4 py-4 md:py-2 w-[80%] mx-auto footer mb-[83px] sm:mb-2 md:flex justify-between mt-28 md:mt-3 lg:mt-[-40px] items-center ">
           <div className="text-white left text-[0.7rem]  sm:font-normal md:font-bold sm:text-[0.6rem] w-[100%] sm:w-[80%] max-w-[500px] sm:max-w-[350px] sm:min-w-[340px] min-w-[200px] mx-auto lg:mx-0 lg:w-[40%]   font-lighter flex   justify-between items-center ">
             <h4 className="mr-1 sm:mr-0">TERMS & CONDITIONS</h4>
             <h4 className="mr-1 sm:mr-0">PRIVACY POLICY</h4>
