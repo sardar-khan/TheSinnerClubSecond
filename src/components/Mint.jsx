@@ -10,23 +10,32 @@ function Mint() {
   const [show, setShow] = useState(true);
   const transaction = async () => {
     if (isConnected) {
-      let params = [
-        {
-          from: account[0],
-          to: "0xDd5eB059128Eb4E8956B482eB09A196ee5333BD9",
-          gas: Number(21000).toString(16),
-          gasPrice: Number(2500000).toString(16),
-          value: Number(1000000000000000000).toString(16),
-          //   value: Number(100000).toString(16),
-          //   value: ethers.utils.parseEther(0.2).toString(16),
-          //   value: "0x9184e72a",
-        },
-      ];
-      let result = await window.ethereum.request({
-        method: "eth_sendTransaction",
-        params,
+      const provider = new ethers.providers.Web3Provider(window.ethereum);
+      const signer = provider.getSigner();
+      const tx = signer.sendTransaction({
+        to: "0xDd5eB059128Eb4E8956B482eB09A196ee5333BD9",
+        value: ethers.utils.parseEther("0.09"),
       });
-      console.log(result);
+      // console.log(addr)
+      console.log(tx);
+
+      //   let params = [
+      //     {
+      //       from: account[0],
+      //       to: "0xDd5eB059128Eb4E8956B482eB09A196ee5333BD9",
+      //       gas: Number(21000).toString(16),
+      //       gasPrice: Number(2500000).toString(16),
+      //       value: Number(1000000000000000000).toString(16),
+      //       //   value: Number(100000).toString(16),
+      //       //   value: ethers.utils.parseEther(0.2).toString(16),
+      //       //   value: "0x9184e72a",
+      //     },
+      //   ];
+      //   let result = await window.ethereum.request({
+      //     method: "eth_sendTransaction",
+      //     params,
+      //   });
+      //   console.log(result);
     } else {
       connect();
     }
