@@ -1,5 +1,6 @@
 import React from "react";
 import { FaDiscord, FaInstagram, FaTwitter } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Main({ toHome }) {
   return (
@@ -45,9 +46,7 @@ function Main({ toHome }) {
             <br /> PLANET
           </div> */}
             <div className=" border-2 sm:border-0 border-white rounded-xl mx-auto text-white bg-gradient-to-r from-[black] to-[#121212] hover:from-[#121212] hover:to-[#0000009c] italic text-center   tracking-widest  w-[90%] sm:w-[50%] lg:w-[30%] p-4 font-bold text-lg ">
-              <a href="" Target="_blank">
-                Mint a Sinner
-              </a>
+              <Link to="/mint">Mint a Sinner</Link>
             </div>
           </div>
           <div className=" mx-auto md:w-[40%] xl:w-[35%]">
