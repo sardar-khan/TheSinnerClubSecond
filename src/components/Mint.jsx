@@ -15,7 +15,7 @@ function Mint() {
       const provider = new ethers.providers.Web3Provider(window.ethereum);
       const signer = provider.getSigner();
       const tx = signer.sendTransaction({
-        to: "0xDd5eB059128Eb4E8956B482eB09A196ee5333BD9",
+        to: "",
         value: ethers.utils.parseEther("0.09"),
       });
       // console.log(addr)
