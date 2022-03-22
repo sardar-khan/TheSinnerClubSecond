@@ -8,14 +8,16 @@ function Mint() {
   const [isConnected, setIsConnected] = useState(false);
   const [hasMetaMask, setHasMetaMask] = useState(false);
 
-  // const [account, setAccount] = useState("");
+  const [account, setAccount] = useState("");
   const [show, setShow] = useState(true);
   const transaction = async () => {
+    console.log("in");
+
     if (isConnected) {
       const provider = new ethers.providers.Web3Provider(window.ethereum);
       const signer = provider.getSigner();
       const tx = signer.sendTransaction({
-        to: "",
+        to: account,
         value: ethers.utils.parseEther("0.09"),
       });
       // console.log(addr)
@@ -53,8 +55,8 @@ function Mint() {
         });
         if (accounts.length) {
           setIsConnected(true);
-          // setAccount(accounts);
-          console.log(accounts);
+          setAccount(accounts[0]);
+          // console.log(accounts);
         }
       } catch (e) {
         alert("Error COnnecting...");
