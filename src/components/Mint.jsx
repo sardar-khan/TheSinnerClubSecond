@@ -6,7 +6,9 @@ import { Link } from "react-router-dom";
 
 function Mint() {
   const [isConnected, setIsConnected] = useState(false);
-  const [account, setAccount] = useState("");
+  const [hasMetaMask, setHasMetaMask] = useState(false);
+
+  // const [account, setAccount] = useState("");
   const [show, setShow] = useState(true);
   const transaction = async () => {
     if (isConnected) {
@@ -43,6 +45,7 @@ function Mint() {
   const connect = async () => {
     if (window.ethereum) {
       //   alert("detected");
+      setHasMetaMask(true);
 
       try {
         const accounts = await window.ethereum.request({
@@ -50,48 +53,54 @@ function Mint() {
         });
         if (accounts.length) {
           setIsConnected(true);
-          setAccount(accounts);
+          // setAccount(accounts);
           console.log(accounts);
         }
       } catch (e) {
         alert("Error COnnecting...");
       }
     } else {
-      alert("install Metamast extension to continue");
+      console.log("install Metamast extension to continue");
+      setHasMetaMask(false);
     }
   };
   useEffect(async () => {
-    if (window.ethereum) {
-      //   alert("detected");
+    connect();
+    // if (window.ethereum) {
+    //   //   alert("detected");
 
-      try {
-        const accounts = await window.ethereum.request({
-          method: "eth_requestAccounts",
-        });
-        if (accounts.length) {
-          setIsConnected(true);
-          setAccount(accounts);
-        }
-      } catch (e) {
-        alert("Error COnnecting...");
-      }
-    } else {
-      alert("install Metamast extension to continue");
-    }
+    //   try {
+    //     const accounts = await window.ethereum.request({
+    //       method: "eth_requestAccounts",
+    //     });
+    //     if (accounts.length) {
+    //       setIsConnected(true);
+    //       // setAccount(accounts);
+    //     }
+    //   } catch (e) {
+    //     alert("Error COnnecting...");
+    //   }
+    // } else {
+    //   console.log("install Metamast extension to continue");
+    // }
     //   const provider = new ethers.providers.Web3Provider(window.ethereum);
     //   await provider.send("eth_requestAccounts", []);
     //   setIsConnected(true);
   }, []);
+  if (window.ethereum) {
+    // setHasMetaMask(true);
 
-  window.ethereum.on("accountsChanged", (accounts) => {
-    // If user has locked/logout from MetaMask, this resets the accounts array to empty
-    if (!accounts.length) {
-      setIsConnected(false);
-      // logic to handle what happens once MetaMask is locked
-    }
-  });
+    window.ethereum.on("accountsChanged", (accounts) => {
+      // If user has locked/logout fromMMetaMask, this resets the accounts array to empty
+      if (!accounts.length) {
+        setIsConnected(false);
+        // logic to handle what happens once MetaMask is locked
+      }
+    });
+  }
+
   return (
-    <div className="Mint bg-black py-4  px-8 md:h-screen w-[100%]">
+    <div className="Mint bg-black py-4  px-8 h-full md:h-screen  w-[100%]">
       <div
         className={` nav transition duration-300 ease-in-out bg-black bg-opacity-40 py-3 fixed w-full ${
           !show && "hidden"
@@ -130,7 +139,20 @@ function Mint() {
             className=" button  rounded-2xl py-2 mr-16 px-4 border-white border-2 bg-black text-white cursor-pointer"
             onClick={isConnected ? null : connect}
           >
-            {isConnected ? "Connected" : "Connect"}
+            {hasMetaMask ? (
+              isConnected ? (
+                "Connected"
+              ) : (
+                "Connect"
+              )
+            ) : (
+              <a
+                href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn"
+                target="_blank"
+              >
+                Install MetaMask
+              </a>
+            )}
           </div>
         </div>
       </div>
@@ -185,14 +207,14 @@ function Mint() {
             />
           </div>
         </Tilt>
-        <div className=" w-[90%] md:w-[80%] mx-auto md:pl-28 md:pr-40 py-12">
+        <div className=" w-[90%] md:w-[80%] mx-auto lg:pl-28 lg:pr-40 lg:py-12">
           <img
             src="./imgs/main_logo.png"
             className=" mx-auto h-[60px] w-[100%] "
             alt=""
           />
           <div
-            className={`text-center mx-auto text-2xl md:text-3xl tracking-widest text-white pb-4 italic ${
+            className={`text-center mx-auto text-2xl lg:text-3xl tracking-widest text-white pb-4 italic ${
               isConnected ? "hidden " : "block "
             }`}
           >
